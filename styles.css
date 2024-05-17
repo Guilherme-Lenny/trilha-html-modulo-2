@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #36D4F4;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0;
+    padding: 10px 20px 0px;
+    width: 15%;
+}
+
+nav ul li {
+    margin: 10px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #36D4F4;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 10px 0 0 0;
+    min-height: 150px;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content {
+    margin: 10px 0;
+    padding: 20px;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: justify;
+    margin: 10px 10px 0 0;
+    min-height: 300px;
+}
+
+.footer {
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 32px;
+    margin: 10px 0 10px 0;
+    min-height: 150px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #d2d2d2;
+}
+
+th,
+td {
+    border: 1px solid #aaa;
+    padding: 8px;
+    text-align: left;
+}
+
+form {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #36D4F4;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #20a0b9;
+}
